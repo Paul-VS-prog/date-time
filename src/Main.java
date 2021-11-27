@@ -8,6 +8,8 @@ public class Main {
         LocalDateTime now = LocalDateTime.now();
         System.out.println();
         System.out.println(now.format(formatter));
+        Menu menu = new Menu();
+        menu.printMenu();
         
     }
 }
