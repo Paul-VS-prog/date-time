@@ -9,6 +9,6 @@ public class Main {
         System.out.println();
         System.out.println(now.format(formatter));
         System.out.println("New branch");
-        
+        System.out.println();
     }
 }
